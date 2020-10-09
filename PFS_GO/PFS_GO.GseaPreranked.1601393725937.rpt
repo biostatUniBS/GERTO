@@ -1,0 +1,23 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1601393725937
+param	rpt_label	PFS_GO
+param	rnd_seed	timestamp
+param	set_min	15
+param	zip_report	false
+param	create_svgs	false
+param	scoring_scheme	weighted
+param	rnk	/Users/stef/PFS.rnk
+param	norm	meandiv
+param	out	/Users/stef/gsea_home/output
+param	mode	Max_probe
+param	include_only_symbols	true
+param	help	false
+param	set_max	500
+param	gmx	ftp.broadinstitute.org://pub/gsea/gene_sets/c5.all.v7.2.symbols.gmt
+param	make_sets	true
+param	plot_top_x	20
+param	gui	false
+param	nperm	1000
+param	collapse	No_Collapse
+
+file	/Users/stef/gsea_home/output/PFS_GO.GseaPreranked.1601393725937/index.html
